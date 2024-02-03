@@ -28,6 +28,8 @@ a {
     font-size: 24px;
     text-align: center;
     padding: 20px 0;
+    position: relative;
+    top: 3px
 }
 
 .topbar-nav {
@@ -137,6 +139,10 @@ a {
 
 .card-body-content {
     margin: 15px 10px;
+}
+
+.card-body-content a {
+    text-decoration: underline;
 }
 
 .card-img {
